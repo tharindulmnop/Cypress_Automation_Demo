@@ -7,7 +7,7 @@ describe('Restful Booker', () => {
       'Tharindu Madusanka',
       'Tharindu@example.com',
       '0755252523651',
-      'Practice Automation here',
+      'Practice Automation here with demo',
       'Hi, I want to practice some automation scripts here'
     );
     ContactPage.submitForm();
