@@ -24,6 +24,8 @@ Run the following command to install the required dependencies:
    
     npm install
 
+
+
 And Open Cypress
 
     npx cypress open

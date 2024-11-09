@@ -22,6 +22,10 @@ class ContactPage {
     verifyThankYouMessage() {
         cy.get(':nth-child(2) > div > h2').should('contain', 'Thanks');
     }
+
+    VerifyLogging(){
+        cy.url().should('include','.online')
+    }
 }
 
 export default new ContactPage();
